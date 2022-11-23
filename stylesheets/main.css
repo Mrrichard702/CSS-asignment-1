@@ -1,7 +1,17 @@
 body {
-  background-color: #dbe0eb;
+  background-color: aliceblue;
 }
 h1 {
   text-align: center;
   font-size: 40px;
+}
+main {
+  background-color: #43bab4;
+  border: solid #262763;
+}
+nav a:focus,
+nav a:hover {
+  border: solid #262763;
+  background-color: aliceblue;
+  color: #43bab4;
 }
