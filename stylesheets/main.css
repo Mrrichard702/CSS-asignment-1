@@ -1,6 +1,12 @@
 body {
   background-color: aliceblue;
 }
+nav a:focus,
+nav a:hover {
+  border: solid #262763;
+  background-color: aliceblue;
+  color: #43bab4;
+}
 h1 {
   text-align: center;
   font-size: 40px;
@@ -9,9 +15,7 @@ main {
   background-color: #43bab4;
   border: solid #262763;
 }
-nav a:focus,
-nav a:hover {
-  border: solid #262763;
-  background-color: aliceblue;
-  color: #43bab4;
+img {
+  margin: 15px;
+  border: 2px solid #262763;
 }
