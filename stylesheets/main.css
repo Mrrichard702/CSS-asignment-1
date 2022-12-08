@@ -1,23 +1,35 @@
+/* 
+  html has the width of the webpage
+*/
 html {
   width: 910px;
   margin: 0 auto;
 }
+/* 
+  contains the code for the not pure white webpage's background
+*/
 body {
   background-color: aliceblue;
 }
-nav {
-}
+/* 
+  Code that occurs when either the text is tabbed on to or when a mouse hovers over it
+*/
 nav a:focus,
 nav a:hover {
   border: solid #262763;
   background-color: aliceblue;
   color: #43bab4;
 }
-
+/* 
+aligns the text to the center of the screena nd the size is 40 pixels
+*/
 h1 {
   text-align: center;
   font-size: 40px;
 }
+/* 
+
+*/
 main {
   background-color: #43bab4;
   border: solid #262763;
