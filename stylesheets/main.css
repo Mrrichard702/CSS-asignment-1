@@ -1,30 +1,56 @@
+/* 
+Styling for the entire website 
+*/
 html {
   width: 910px;
   margin: 0 auto;
 }
+/* 
+  this styles the body to have a background colour of aliceblue which isn't a pure white color
+*/
 body {
   background-color: aliceblue;
 }
-nav {
-}
+/* 
+This styles the browser for whenever a user tabs to a piece of the 
+nav bar or hovers over a part of the nav
+*/
 nav a:focus,
 nav a:hover {
   border: solid #262763;
   background-color: aliceblue;
   color: #43bab4;
 }
-
+/* 
+This styles H1 tags to be centered and have a font size of 40 pixels
+*/
 h1 {
   text-align: center;
   font-size: 40px;
 }
+/* 
+this styles the main to have a aquamarine like color with a border of a dark blue, a margin set to auto,
+and a table layout fixed
+*/
 main {
   background-color: #43bab4;
   border: solid #262763;
   margin: auto;
   table-layout: fixed;
 }
+/* 
+Images are styled to have a margin of 15 pixels away from other elements as well as 
+a 2 pixel solid border with a dark blue color
+*/
 img {
   margin: 15px;
   border: 2px solid #262763;
+}
+/* 
+this styles spans to have a white blue mix to draw attention to cretain pieces of text also boldens font
+with the span element
+*/
+span {
+  color: #a7c1f2;
+  font-weight: bold;
 }
