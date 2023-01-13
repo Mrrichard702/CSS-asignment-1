@@ -1,15 +1,59 @@
+* {
+  line-height: 140%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 /* 
   html has the width of the webpage
 */
 html {
   width: 910px;
   margin: 0 auto;
+  font-size: 62.5%;
 }
 /* 
   contains the code for the not pure white webpage's background
 */
 body {
   background-color: aliceblue;
+  font-size: 1.8rem;
+}
+
+nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  border: 2px solid #3d325d;
+  background-color: #2e807c;
+}
+nav ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -moz-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding-left: 0%;
+}
+nav li {
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  padding: 15px;
+  color: #ededed;
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 1px 1px #121212;
 }
 /* 
   Code that occurs when either the text is tabbed on to or when a mouse hovers over it
@@ -17,8 +61,9 @@ body {
 nav a:focus,
 nav a:hover {
   border: solid #262763;
-  background-color: aliceblue;
-  color: #43bab4;
+  background-color: #ededed;
+  color: #2e807c;
+  text-shadow: 0px 0px transparent;
 }
 /* 
 aligns the text to the center of the screena nd the size is 40 pixels
@@ -31,10 +76,22 @@ h1 {
 
 */
 main {
-  background-color: #43bab4;
-  border: solid #262763;
   margin: auto;
   table-layout: fixed;
+}
+
+h2 {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  display: inline-block;
+  background-color: #9ad8eb;
+  border: solid #262763;
+  padding: 10px 20px;
 }
 img {
   margin: 15px;
