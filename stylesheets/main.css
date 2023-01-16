@@ -7,6 +7,8 @@
 
 /* 
   html has the width of the webpage
+/* 
+Styling for the entire website 
 */
 html {
   width: 910px;
@@ -15,6 +17,7 @@ html {
 }
 /* 
   contains the code for the not pure white webpage's background
+  this styles the body to have a background colour of aliceblue which isn't a pure white color
 */
 body {
   background-color: aliceblue;
@@ -53,10 +56,15 @@ nav a {
   color: #ededed;
   font-size: 2rem;
   font-weight: bold;
-  text-shadow: 1px 1px #121212;
+  text-shadow: 0px 0px #121212;
 }
 /* 
   Code that occurs when either the text is tabbed on to or when a mouse hovers over it
+=======
+/* 
+This styles the browser for whenever a user tabs to a piece of the 
+nav bar or hovers over a part of the nav
+>>>>>>> 9e5e32fa5abd02b9e441e39c40e024623ad24abf
 */
 nav a:focus,
 nav a:hover {
@@ -66,7 +74,11 @@ nav a:hover {
   text-shadow: 0px 0px transparent;
 }
 /* 
+
 aligns the text to the center of the screena nd the size is 40 pixels
+=======
+This styles H1 tags to be centered and have a font size of 40 pixels
+>>>>>>> 9e5e32fa5abd02b9e441e39c40e024623ad24abf
 */
 h1 {
   text-align: center;
@@ -74,6 +86,11 @@ h1 {
 }
 /* 
 
+
+=======
+this styles the main to have a aquamarine like color with a border of a dark blue, a margin set to auto,
+and a table layout fixed
+>>>>>>> 9e5e32fa5abd02b9e441e39c40e024623ad24abf
 */
 main {
   margin: auto;
@@ -93,7 +110,20 @@ h2 {
   border: solid #262763;
   padding: 10px 20px;
 }
+
+/* 
+Images are styled to have a margin of 15 pixels away from other elements as well as 
+a 2 pixel solid border with a dark blue color
+*/
 img {
   margin: 15px;
   border: 2px solid #262763;
+}
+/* 
+this styles spans to have a white blue mix to draw attention to cretain pieces of text also boldens font
+with the span element
+*/
+span {
+  color: #a7c1f2;
+  font-weight: bold;
 }
