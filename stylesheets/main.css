@@ -127,3 +127,27 @@ span {
   color: #a7c1f2;
   font-weight: bold;
 }
+
+.footer-link {
+  -webkit-transition: width 2s;
+  -o-transition: width 2s;
+  -moz-transition: width 2s;
+  transition: width 2s;
+  -webkit-transition-timing-function: ease;
+  -moz-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  transition-timing-function: ease;
+
+  background: transparent;
+  width: 300px;
+  color: #2e807c;
+}
+.footer-link:hover,
+:active {
+  color: #ededed;
+  width: 600px;
+  background: #3d325d;
+}
+.footer-link:visited {
+  color: inherit;
+}
