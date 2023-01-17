@@ -21,6 +21,7 @@ html {
 */
 body {
   background-color: aliceblue;
+  font-family: "Crimson Text", serif;
   font-size: 1.8rem;
 }
 
@@ -128,26 +129,32 @@ span {
   font-weight: bold;
 }
 
+footer {
+  background-color: #2e807c;
+  color: #ededed;
+
+  padding: 5px 15px;
+}
+
 .footer-link {
-  -webkit-transition: width 2s;
-  -o-transition: width 2s;
-  -moz-transition: width 2s;
-  transition: width 2s;
+  display: inline-block;
+  width: 300px;
+
+  padding-left: 5px;
+
+  -webkit-transition: width 2s, background-color 0.5s;
+  -o-transition: width 2s, background-color 0.5s;
+  -moz-transition: width 2s, background-color 0.5s;
+  transition: width 2s, background-color 0.5s;
   -webkit-transition-timing-function: ease;
   -moz-transition-timing-function: ease;
   -o-transition-timing-function: ease;
   transition-timing-function: ease;
 
-  background: transparent;
-  width: 300px;
-  color: #2e807c;
+  color: #ededed;
 }
 .footer-link:hover,
-:active {
-  color: #ededed;
+.footer-link:focus {
   width: 600px;
   background: #3d325d;
-}
-.footer-link:visited {
-  color: inherit;
 }
