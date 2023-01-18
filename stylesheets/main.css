@@ -65,7 +65,6 @@ nav a {
 /* 
 This styles the browser for whenever a user tabs to a piece of the 
 nav bar or hovers over a part of the nav
->>>>>>> 9e5e32fa5abd02b9e441e39c40e024623ad24abf
 */
 nav a:focus,
 nav a:hover {
@@ -77,18 +76,13 @@ nav a:hover {
 /* 
 
 aligns the text to the center of the screena nd the size is 40 pixels
-=======
 This styles H1 tags to be centered and have a font size of 40 pixels
->>>>>>> 9e5e32fa5abd02b9e441e39c40e024623ad24abf
 */
 h1 {
   text-align: center;
   font-size: 40px;
 }
 /* 
-
-
-=======
 this styles the main to have a aquamarine like color with a border of a dark blue, a margin set to auto,
 and a table layout fixed
 >>>>>>> 9e5e32fa5abd02b9e441e39c40e024623ad24abf
