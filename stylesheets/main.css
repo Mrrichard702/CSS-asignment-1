@@ -1,3 +1,6 @@
+/* 
+The spacing leading between text
+*/
 * {
   line-height: 140%;
   -webkit-box-sizing: border-box;
@@ -18,13 +21,19 @@ html {
 /* 
   contains the code for the not pure white webpage's background
   this styles the body to have a background colour of aliceblue which isn't a pure white color
+  which helps the eyes not burn if you are in a darker are while viewing the webpage
 */
 body {
   background-color: aliceblue;
-  font-family: "Crimson Text", serif;
+  /* 
+  use of the Merriweather serif font to 
+  */
+  font-family: "Merriweather", serif;
   font-size: 1.8rem;
 }
-
+/* 
+styling for the nav which makes it have a box around the links to other webpages
+*/
 nav {
   display: -webkit-box;
   display: -webkit-flex;
@@ -35,6 +44,9 @@ nav {
   border: 2px solid #3d325d;
   background-color: #2e807c;
 }
+/* 
+the flex code makes the list more responsive
+*/
 nav ul {
   display: -webkit-box;
   display: -webkit-flex;
@@ -48,9 +60,15 @@ nav ul {
   flex: 1;
   padding-left: 0%;
 }
+/* 
+removes the bullet points in the list
+*/
 nav li {
   list-style: none;
 }
+/* 
+styles the li's text to be a not pure white background and to be boldened with minimal text shadow
+*/
 nav a {
   text-decoration: none;
   padding: 15px;
@@ -61,8 +79,8 @@ nav a {
 }
 /* 
   Code that occurs when either the text is tabbed on to or when a mouse hovers over it
-=======
 /* 
+/*  
 This styles the browser for whenever a user tabs to a piece of the 
 nav bar or hovers over a part of the nav
 */
@@ -85,13 +103,15 @@ h1 {
 /* 
 this styles the main to have a aquamarine like color with a border of a dark blue, a margin set to auto,
 and a table layout fixed
->>>>>>> 9e5e32fa5abd02b9e441e39c40e024623ad24abf
+
 */
 main {
   margin: auto;
   table-layout: fixed;
 }
-
+/* Styling for the h2 tag which makes it so that it is in a box, 
+in the center of the webpage, and is accessible on other web browsers
+ */
 h2 {
   position: relative;
   left: 50%;
@@ -122,14 +142,38 @@ span {
   color: #a7c1f2;
   font-weight: bold;
 }
-
+/* 
+styles the footer tag to be within a aquamarine box 
+with white text and padding 5 pixels up and 15 on a horizontal angle
+ */
 footer {
   background-color: #2e807c;
   color: #ededed;
 
   padding: 5px 15px;
 }
-
+/* Classes */
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+/* 
+aligns the text to be centered to the webpage 
+*/
+.center-text {
+  text-align: center;
+}
+/*  
+adds margin to the top and bottom of certain elements
+*/
+.spacing {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+/* 
+adds a block to hold content of the footer in and changes the text to be a not pure white background 
+*/
 .footer-link {
   display: inline-block;
   width: 300px;
@@ -147,8 +191,19 @@ footer {
 
   color: #ededed;
 }
+/* 
+adds a transition for when you hover over any of the footer links 
+*/
 .footer-link:hover,
 .footer-link:focus {
   width: 600px;
   background: #3d325d;
+}
+/* ID's */
+/* 
+adds distance to the top and bottom of embeded youtube videos
+*/
+#Youtube-id {
+  margin-top: 15%;
+  margin-bottom: 15%;
 }
